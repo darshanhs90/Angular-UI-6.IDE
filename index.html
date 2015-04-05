@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+	<title>Angular UI</title>
+	<style>
+	</style>
+	<link href="public/lib/codemirror/lib/codemirror.css" rel="stylesheet">
+	<link href="public/lib/codemirror/theme/solarized.css" rel="stylesheet">
+	<script type="text/javascript" src="public/lib/angular/angular.min.js"></script>
+	<script type="text/javascript" src="public/lib/codemirror/lib/codemirror.js"></script>
+	<script type="text/javascript" src="public/lib/codemirror/mode/javascript/javascript.js"></script>
+	<script type="text/javascript" src="public/lib/angular-ui-codemirror/ui-codemirror.min.js"></script>	
+	<script type="text/javascript" src="app.js"></script>
+</head>
+<body ng-controller="MainController">
+	
+	<div ui-codemirror="cmOpts"></div>
+</body>
+</html>
